@@ -31,3 +31,53 @@ The model is trained using the training dataset for a few epochs (to keep the ru
 After training, the model's performance is evaluated on the test dataset. We compute predictions and calculate accuracy, precision, and recall for each garment category to assess the model's effectiveness.
 
 
+## Code Explanation
+
+The code is structured as follows:
+
+### Data Loading
+We load the FashionMNIST dataset using `torchvision.datasets` and apply transformations to convert the images to tensors.
+
+### Model Definition
+A CNN model is defined with convolutional, pooling, and fully connected layers to process and classify the images.
+
+### Training Loop
+The model is trained for a few epochs using the training data, computing the loss and updating the model weights using backpropagation.
+
+### Evaluation Loop
+The model is evaluated on the test data, and predictions are collected.
+
+### Metrics Calculation
+We calculate accuracy, precision, and recall using `torchmetrics` to measure the model's performance.
+
+## Metrics
+
+The model's performance is summarized by the following metrics:
+
+- **Accuracy**: The overall accuracy of the model on the test dataset is 0.8945.
+- **Precision**: The precision for each garment category is as follows:
+  - T-shirt/top: 0.7952
+  - Trouser: 0.9918
+  - Pullover: 0.8573
+  - Dress: 0.8936
+  - Coat: 0.7806
+  - Sandal: 0.9848
+  - Shirt: 0.7591
+  - Sneaker: 0.9504
+  - Bag: 0.9829
+  - Ankle boot: 0.9527
+- **Recall**: The recall for each garment category is as follows:
+  - T-shirt/top: 0.8890
+  - Trouser: 0.9730
+  - Pullover: 0.8050
+  - Dress: 0.8990
+  - Coat: 0.8860
+  - Sandal: 0.9700
+  - Shirt: 0.6240
+  - Sneaker: 0.9580
+  - Bag: 0.9750
+  - Ankle boot: 0.9660
+
+## Conclusion
+
+This project demonstrates a practical application of deep learning for image classification in the fashion industry. By automating the product tagging process, Fashion Forward can enhance the shopping experience for customers and streamline inventory management, ultimately contributing to more efficient operations and better customer satisfaction.
