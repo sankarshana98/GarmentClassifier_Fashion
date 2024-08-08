@@ -1,4 +1,5 @@
 # Garment Classifier
+![image](https://github.com/user-attachments/assets/bd795e56-62c3-436e-95c9-aef5c5a641e0)
 
 ## Project Overview
 
