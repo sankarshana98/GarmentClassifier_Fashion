@@ -81,3 +81,6 @@ The model's performance is summarized by the following metrics:
 ## Conclusion
 
 This project demonstrates a practical application of deep learning for image classification in the fashion industry. By automating the product tagging process, Fashion Forward can enhance the shopping experience for customers and streamline inventory management, ultimately contributing to more efficient operations and better customer satisfaction.
+
+### Acknowledgements
+This project was inspired by a DataCamp course on deep learning and image classification.
